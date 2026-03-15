@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-saffron: #f4a261;
+  --color-saffron-dark: #e76f51;
+  --color-maroon: #800000;
+  --color-vermilion: #e34234;
+  --color-gold: #d4af37;
+  --color-amber: #ffbf00;
+  --color-ivory: #fffff0;
+  --color-off-white: #faf9f6;
+  --color-slate-dark: #334155;
+
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+:root {
+  /* header height is dynamically set by Navbar; fallback 80px */
+  --header-height: 80px;
+}
+
+html {
+  scroll-padding-top: var(--header-height);
+}
+
+@layer base {
+  body {
+    @apply bg-off-white text-slate-dark antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-shadow-sm {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg;
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.8s ease-out forwards;
+  }
+}
