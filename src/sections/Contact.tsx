@@ -1,6 +1,6 @@
 import { SectionHeader } from "../components/SectionHeader";
 import { CONTACT_INFO } from "../data/content";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 export const Contact = () => {
   return (
