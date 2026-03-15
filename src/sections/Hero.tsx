@@ -1,5 +1,6 @@
 import { ChevronRight, Heart } from "lucide-react";
 import { TRUST_NAME, TAGLINE } from "../data/content";
+import jagannathImg from "../assets/jagannath-temple.jpg";
 
 export const Hero = () => {
   return (
@@ -7,7 +8,7 @@ export const Hero = () => {
       {/* Background Image without full-screen overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/jagannath-temple.jpg"
+          src={jagannathImg}
           alt="Puri Jagannath Temple"
           className="w-full h-full object-cover"
         />

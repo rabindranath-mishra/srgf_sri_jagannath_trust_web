@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { Menu, X } from "lucide-react";
 import { NAVIGATION } from "../data/content";
 import { cn } from "../utils/cn";
+import trustLogo from "../assets/trust_logo.jpg";
 
 export const Navbar = () => {
   const navRef = useRef<HTMLElement | null>(null);
@@ -38,7 +39,7 @@ export const Navbar = () => {
           <div className="flex items-center space-x-3">
             <div className="relative w-14 h-14 shrink-0 overflow-hidden rounded-full shadow-lg border-2 border-saffron/30 bg-white">
               <img 
-                src="/src/assets/trust_logo.jpg" 
+                src={trustLogo} 
                 alt="SRGF Sri Jagannath Trust Logo" 
                 className="w-full h-full object-cover"
               />

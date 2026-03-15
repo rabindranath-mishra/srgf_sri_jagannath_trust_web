@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Twitter, Mail, Phone } from "lucide-react";
 import { TRUST_NAME, NAVIGATION, CONTACT_INFO, TAGLINE } from "../data/content";
+import trustLogo from "../assets/trust_logo.jpg";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,7 +13,7 @@ export const Footer = () => {
             <div className="flex items-center space-x-3 mb-6">
               <div className="relative w-14 h-14 shrink-0 overflow-hidden rounded-full shadow-lg border-2 border-saffron/30 bg-white">
                 <img 
-                  src="/src/assets/trust_logo.jpg" 
+                  src={trustLogo} 
                   alt="SRGF Sri Jagannath Trust Logo" 
                   className="w-full h-full object-cover"
                 />

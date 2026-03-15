@@ -1,3 +1,8 @@
+import jagannathImg from "../assets/jagannath-temple.jpg";
+import rathImg from "../assets/rath-yatra.jpg";
+import communityImg from "../assets/community.jpg";
+import spiritualImg from "../assets/spiritual.jpg";
+
 export const TRUST_NAME = "SRGF Sri Jagannath Trust";
 export const TAGLINE = "Rooted in Odia heritage, open to all.";
 export const MISSION_STATEMENT = "To celebrate Odia and Jagannath culture while creating an inclusive platform that brings together all residents of Shriram Greenfield through spirituality, cultural exchange, service, and joyful participation.";
@@ -66,19 +71,19 @@ export const EVENTS = [
 
 export const GALLERY_IMAGES = [
   {
-    url: "/src/assets/jagannath-temple.jpg",
+    url: jagannathImg,
     title: "Jagannath Temple Visual",
   },
   {
-    url: "/src/assets/rath-yatra.jpg",
+    url: rathImg,
     title: "Community Celebration",
   },
   {
-    url: "/src/assets/community.jpg",
+    url: communityImg,
     title: "Traditional Rituals",
   },
   {
-    url: "/src/assets/spiritual.jpg",
+    url: spiritualImg,
     title: "Spiritual Gathering",
   },
 ];
