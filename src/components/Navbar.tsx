@@ -31,7 +31,7 @@ export const Navbar = () => {
 
   return (
     <nav ref={navRef} className={cn(
-      "fixed w-full z-50 transition-all duration-300 top-8",
+      "fixed w-full z-[70] transition-all duration-300 top-12 md:top-8",
       scrolled ? "bg-white/90 backdrop-blur-md shadow-md py-2" : "bg-transparent py-4"
     )}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -111,7 +111,7 @@ export const Navbar = () => {
               onClick={() => setIsOpen(false)}
               className="block w-full text-center bg-maroon text-ivory px-4 py-3 rounded-xl font-semibold hover:bg-vermilion transition-colors shadow-lg"
             >
-              Donate Now
+              Donate
             </a>
           </div>
         </div>
