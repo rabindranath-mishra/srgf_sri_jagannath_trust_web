@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="min-h-screen bg-off-white">
       {/* Top Announcement Bar */}
-      <div className="bg-maroon text-ivory py-2 px-4 text-center text-xs md:text-sm font-medium z-[60] relative">
+      <div className="bg-maroon text-ivory py-2 px-4 text-center text-xs md:text-sm font-medium z-[60] fixed top-0 w-full">
         Founded by the Odia community, welcoming all residents of Shriram Greenfield, Bengaluru.
       </div>
 

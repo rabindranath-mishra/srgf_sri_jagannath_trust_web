@@ -4,7 +4,7 @@ import jagannathImg from "../assets/jagannath-temple.jpg";
 
 export const Hero = () => {
   return (
-    <section id="home" className="relative h-screen min-h-[700px] flex items-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-32 pb-16 md:pt-24 md:pb-20">
       {/* Background Image without full-screen overlay */}
       <div className="absolute inset-0 z-0">
         <img
@@ -21,7 +21,7 @@ export const Hero = () => {
         <div className="absolute inset-0 opacity-5 bg-[url('https://www.transparenttextures.com/patterns/mandala.png')] grayscale" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl bg-ivory/80 backdrop-blur-lg p-8 md:p-12 rounded-3xl border border-white/20 shadow-2xl animate-fade-in-up">
           <div className="inline-block px-4 py-1.5 rounded-full bg-saffron/20 border border-saffron/30 text-saffron-dark font-bold text-xs uppercase tracking-wider mb-6">
             {TAGLINE}

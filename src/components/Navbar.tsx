@@ -31,7 +31,7 @@ export const Navbar = () => {
 
   return (
     <nav ref={navRef} className={cn(
-      "fixed w-full z-50 transition-all duration-300",
+      "fixed w-full z-50 transition-all duration-300 top-8",
       scrolled ? "bg-white/90 backdrop-blur-md shadow-md py-2" : "bg-transparent py-4"
     )}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
