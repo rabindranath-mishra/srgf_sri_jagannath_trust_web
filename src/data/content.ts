@@ -1,7 +1,13 @@
-import jagannathImg from "../assets/jagannath-temple.jpg";
-import rathImg from "../assets/rath-yatra.jpg";
-import communityImg from "../assets/community.jpg";
-import spiritualImg from "../assets/spiritual.jpg";
+import jagannathImg from "../assets/jagannath-temple2.jpg";
+import rathImg from "../assets/gallery_2.jpg";
+import communityImg from "../assets/gallery_1.jpg";
+import carouselImg1 from "../assets/gallery/spiritual.jpg";
+import carouselImg2 from "../assets/gallery/DSC07951.jpg";
+import carouselImg3 from "../assets/gallery/DSC07959.jpg";
+import carouselImg4 from "../assets/gallery/DSC07969.jpg";
+import carouselImg5 from "../assets/gallery/DSC07992.jpg";
+import carouselImg6 from "../assets/gallery/DSC08595.jpg";
+import carouselImg7 from "../assets/gallery/IMG-20230423-WA0029.jpg";
 
 export const TRUST_NAME = "SRGF Sri Jagannath Trust";
 export const TAGLINE = "Rooted in Odia heritage, open to all.";
@@ -72,20 +78,26 @@ export const EVENTS = [
 export const GALLERY_IMAGES = [
   {
     url: jagannathImg,
-    title: "Jagannath Temple Visual",
+    title: "Temple Heritage",
   },
   {
     url: rathImg,
-    title: "Community Celebration",
+    title: "Rath Yatra Celebration",
   },
   {
     url: communityImg,
-    title: "Traditional Rituals",
+    title: "Community Unity",
   },
-  {
-    url: spiritualImg,
-    title: "Spiritual Gathering",
-  },
+];
+
+export const CAROUSEL_IMAGES = [
+  carouselImg1,
+  carouselImg2,
+  carouselImg3,
+  carouselImg4,
+  carouselImg5,
+  carouselImg6,
+  carouselImg7,
 ];
 
 export const LEADERSHIP = [
@@ -97,7 +109,10 @@ export const LEADERSHIP = [
 
 export const CONTACT_INFO = {
   address: "Shriram Greenfield, Budigere Cross, Bengaluru, Karnataka 560049",
-  email: "contact@srgfjagannath.org",
-  phone: "+91 XXXXXXXXXX",
+  email: "managing.trustee@srgfsrijagannathtrust.in",
+  phone: "+91 6366602452",
   whatsapp: "+91 XXXXXXXXXX",
+  registrationNumber: "BDH-4-00016-2023-24",
+  accountNumber: "50200081382727",
+  ifscCode: "HDFC0003637",
 };

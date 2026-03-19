@@ -32,7 +32,7 @@ export const Contact = () => {
                 <Mail className="text-maroon w-8 h-8" />
               </div>
               <h4 className="font-bold text-maroon text-xl mb-3">Email Us</h4>
-              <p className="text-slate-dark/70 leading-relaxed text-sm font-medium">
+              <p className="text-slate-dark/70 leading-relaxed text-sm font-medium break-all">
                 {CONTACT_INFO.email}
               </p>
             </div>

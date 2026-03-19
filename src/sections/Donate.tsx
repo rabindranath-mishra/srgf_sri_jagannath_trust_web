@@ -1,4 +1,5 @@
-import { QrCode } from "lucide-react";
+import qrImage from "../assets/qr.jpeg";
+import { CONTACT_INFO } from "../data/content";
 
 export const Donate = () => {
   return (
@@ -26,8 +27,8 @@ export const Donate = () => {
           </div>
           
           <div className="md:w-1/2 bg-white p-12 flex flex-col items-center justify-center text-center">
-            <div className="w-48 h-48 bg-slate-100 rounded-3xl mb-6 flex items-center justify-center border-2 border-dashed border-slate-300">
-              <QrCode className="w-24 h-24 text-slate-300" />
+            <div className="w-48 h-48 bg-slate-100 rounded-3xl mb-6 flex items-center justify-center overflow-hidden">
+              <img src={qrImage} alt="UPI QR Code" className="w-full h-full object-cover" />
             </div>
             <p className="text-slate-dark/60 font-semibold mb-4 tracking-wide uppercase text-xs">Scan for UPI Payment</p>
             <div className="w-full space-y-4 text-left">
@@ -37,7 +38,8 @@ export const Donate = () => {
               </div>
               <div className="p-4 bg-ivory rounded-xl border border-saffron/20 shadow-sm">
                 <p className="text-xs text-slate-dark/40 uppercase font-bold tracking-wider mb-1">Bank Details</p>
-                <p className="font-bold text-maroon text-lg">Coming Soon</p>
+                <p className="text-sm text-maroon mb-2 font-mono">A/c No.: {CONTACT_INFO.accountNumber}</p>
+                <p className="text-sm text-maroon font-mono">IFSC: {CONTACT_INFO.ifscCode}</p>
               </div>
             </div>
           </div>

@@ -8,8 +8,8 @@ export const Footer = () => {
   return (
     <footer className="bg-slate-dark text-ivory pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-          <div className="col-span-1 lg:col-span-1">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
+          <div className="col-span-1">
             <div className="flex items-center space-x-3 mb-6">
               <div className="relative w-14 h-14 shrink-0 overflow-hidden rounded-full shadow-lg border-2 border-saffron/30 bg-white">
                 <img 
@@ -26,6 +26,10 @@ export const Footer = () => {
               A cultural and community initiative founded by the Odia residents 
               of Shriram Greenfield, dedicated to serving and uniting all residents.
             </p>
+            <div className="p-3 bg-white/5 rounded-lg border border-white/10 mb-6">
+              <p className="text-xs text-amber/80 font-semibold mb-1 uppercase">Registration</p>
+              <p className="text-xs font-mono text-amber tracking-wider">{CONTACT_INFO.registrationNumber}</p>
+            </div>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-saffron hover:text-maroon transition-all">
                 <Facebook className="w-5 h-5" />
@@ -63,21 +67,11 @@ export const Footer = () => {
                 <Phone className="w-5 h-5 mr-3 text-amber shrink-0 mt-1" />
                 <span className="text-ivory/60">{CONTACT_INFO.phone}</span>
               </li>
+              <li className="text-ivory/60 text-sm pt-2">
+                <p className="font-semibold mb-2 text-amber">Address</p>
+                {CONTACT_INFO.address}
+              </li>
             </ul>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-amber text-lg mb-8 uppercase tracking-widest text-sm">Our Location</h4>
-            <p className="text-ivory/60 leading-relaxed">
-              Shriram Greenfield,<br />
-              Budigere Cross,<br />
-              Bengaluru, Karnataka 560049
-            </p>
-            <div className="mt-6 p-4 bg-white/5 rounded-2xl border border-white/10">
-              <p className="text-xs italic text-amber/60">
-                "{TAGLINE}"
-              </p>
-            </div>
           </div>
         </div>
 
