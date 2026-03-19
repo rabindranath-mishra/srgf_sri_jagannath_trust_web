@@ -20,8 +20,6 @@ export const Gallery = () => {
               <div className="aspect-square overflow-hidden rounded-2xl bg-ivory relative">
                 {item.type === "video" ? (
                   <video 
-                    src={item.url}
-                    type="video/mp4"
                     autoPlay
                     loop
                     muted
