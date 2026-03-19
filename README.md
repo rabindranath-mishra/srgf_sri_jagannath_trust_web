@@ -219,4 +219,4 @@ For questions or suggestions, please reach out through the Contact section on th
 
 ---
 
-**Built with ❤️ by the SRGF community** | [View Live Site](#) | [Report Issue](../../issues)
+**Built with ❤️ by the SRGF community** | [View Live Site](https://rabindranath-mishra.github.io/srgf_sri_jagannath_trust_web/) | [Report Issue](../../issues)
