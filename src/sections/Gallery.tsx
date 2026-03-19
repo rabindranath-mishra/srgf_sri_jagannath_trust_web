@@ -20,14 +20,17 @@ export const Gallery = () => {
               <div className="aspect-square overflow-hidden rounded-2xl bg-ivory relative">
                 {item.type === "video" ? (
                   <video 
-                    src={item.url} 
+                    src={item.url}
+                    type="video/mp4"
                     autoPlay
                     loop
                     muted
                     playsInline
                     controls
                     className="w-full h-full object-cover"
+                    onError={(e) => console.error("Video error:", e)}
                   >
+                    <source src={item.url} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 ) : (
