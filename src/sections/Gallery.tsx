@@ -12,19 +12,33 @@ export const Gallery = () => {
         />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {GALLERY_IMAGES.map((image, index) => (
+          {GALLERY_IMAGES.map((item, index) => (
             <div 
               key={index} 
               className="group"
             >
               <div className="aspect-square overflow-hidden rounded-2xl bg-ivory relative">
-                <img 
-                  src={image.url} 
-                  alt={image.title}
-                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 flex items-end p-4 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-t from-black/70 via-black/40 to-transparent">
-                  <p className="text-ivory font-bold text-sm tracking-tight text-center w-full">{image.title}</p>
+                {item.type === "video" ? (
+                  <video 
+                    src={item.url} 
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    controls
+                    className="w-full h-full object-cover"
+                  >
+                    Your browser does not support the video tag.
+                  </video>
+                ) : (
+                  <img 
+                    src={item.url} 
+                    alt={item.title}
+                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  />
+                )}
+                <div className="absolute inset-0 flex items-end p-4 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-t from-black/70 via-black/40 to-transparent pointer-events-none">
+                  <p className="text-ivory font-bold text-sm tracking-tight text-center w-full">{item.title}</p>
                 </div>
               </div>
             </div>

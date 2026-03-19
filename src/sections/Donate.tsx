@@ -9,7 +9,7 @@ export const Donate = () => {
           <div className="md:w-1/2 p-12 text-ivory flex flex-col justify-center">
             <h2 className="text-4xl font-bold mb-6 text-amber">How to Donate</h2>
             <p className="mb-8 opacity-80 text-lg leading-relaxed">
-              We accept donations via bank transfer, UPI, or any-kind support. 
+              We accept donations via bank transfer, UPI (QR below), or any-kind support. 
               All contributions are used exclusively for community welfare 
               and cultural preservation.
             </p>

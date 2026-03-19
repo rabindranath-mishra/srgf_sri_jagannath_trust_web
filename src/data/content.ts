@@ -1,13 +1,16 @@
 import jagannathImg from "../assets/jagannath-temple2.jpg";
-import rathImg from "../assets/gallery_2.jpg";
 import communityImg from "../assets/gallery_1.jpg";
-import carouselImg1 from "../assets/gallery/spiritual.jpg";
-import carouselImg2 from "../assets/gallery/DSC07951.jpg";
-import carouselImg3 from "../assets/gallery/DSC07959.jpg";
-import carouselImg4 from "../assets/gallery/DSC07969.jpg";
-import carouselImg5 from "../assets/gallery/DSC07992.jpg";
-import carouselImg6 from "../assets/gallery/DSC08595.jpg";
-import carouselImg7 from "../assets/gallery/IMG-20230423-WA0029.jpg";
+import carouselImg1 from "../assets/gallery/1.jpg";
+import carouselImg2 from "../assets/gallery/2.jpg";
+import carouselImg3 from "../assets/gallery/3.jpg";
+import carouselImg4 from "../assets/gallery/4.jpg";
+import carouselImg5 from "../assets/gallery/5.jpg";
+import carouselImg6 from "../assets/gallery/6.jpg";
+import carouselImg7 from "../assets/gallery/7.jpg";
+import carouselImg8 from "../assets/gallery/8.jpg";
+import bismayImg from "../assets/committee/bismay.jpeg";
+import rabiImg from "../assets/committee/rabi.jpg";
+import rathYatraVideo from "../assets/srgf_rathajatra.mp4";
 
 export const TRUST_NAME = "SRGF Sri Jagannath Trust";
 export const TAGLINE = "Rooted in Odia heritage, open to all.";
@@ -56,22 +59,28 @@ export const MISSION_CARDS = [
 
 export const EVENTS = [
   {
-    title: "Rath Yatra Mahotsav",
-    description: "Annual grand celebration of Lord Jagannath's journey.",
-    date: "Upcoming",
-    type: "Featured",
+    title: "Rath Yatra 2026",
+    description: "Festival Itinerary:",
+    itinerary: [
+      "Day_1",
+      "Day_2",
+      "Day_3",
+      "Day_4",
+      "Day_5",
+      "Day_6",
+      "Day_7",
+      "Day_8",
+      "Day_9",
+      "Day_10"
+    ]
   },
   {
-    title: "Monthly Bhajan and Satsang",
+    title: "Serve With Us",
     description: "Devotional singing and spiritual gathering.",
-    date: "Every Month",
-    type: "Featured",
   },
   {
-    title: "Children's Cultural Program",
+    title: "Cultural Program",
     description: "Engaging youth through traditional arts and values.",
-    date: "Regular",
-    type: "Featured",
   },
 ];
 
@@ -79,14 +88,17 @@ export const GALLERY_IMAGES = [
   {
     url: jagannathImg,
     title: "Temple Heritage",
+    type: "image",
   },
   {
-    url: rathImg,
+    url: rathYatraVideo,
     title: "Rath Yatra Celebration",
+    type: "video",
   },
   {
     url: communityImg,
     title: "Community Unity",
+    type: "image",
   },
 ];
 
@@ -98,13 +110,19 @@ export const CAROUSEL_IMAGES = [
   carouselImg5,
   carouselImg6,
   carouselImg7,
+  carouselImg8,
 ];
 
 export const LEADERSHIP = [
-  { role: "Trust President / Chairperson", name: "TBD" },
-  { role: "Cultural Coordinator", name: "TBD" },
-  { role: "Events and Seva Coordinator", name: "TBD" },
-  { role: "Community Outreach Lead", name: "TBD" },
+  { role: "Managing Trustee", name: "TBD", photo: null },
+  { role: "", name: "TBD", photo: null },
+  { role: "", name: "Bismaya Samantaray", photo: bismayImg },
+  { role: "", name: "Rabindranath Mishra", photo: rabiImg },
+  { role: "", name: "TBD", photo: null },
+  { role: "", name: "TBD", photo: null },
+  { role: "", name: "TBD", photo: null },
+  { role: "", name: "TBD", photo: null },
+  { role: "", name: "TBD", photo: null },
 ];
 
 export const CONTACT_INFO = {
