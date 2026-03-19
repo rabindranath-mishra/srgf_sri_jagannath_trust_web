@@ -1,5 +1,5 @@
 import { Facebook, Instagram, Twitter, Mail, Phone } from "lucide-react";
-import { TRUST_NAME, NAVIGATION, CONTACT_INFO, TAGLINE } from "../data/content";
+import { TRUST_NAME, NAVIGATION, CONTACT_INFO } from "../data/content";
 import trustLogo from "../assets/trust_logo.jpg";
 
 export const Footer = () => {
