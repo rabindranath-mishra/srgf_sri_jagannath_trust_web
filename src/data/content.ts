@@ -10,6 +10,9 @@ import carouselImg7 from "../assets/gallery/7.jpg";
 import carouselImg8 from "../assets/gallery/8.jpg";
 import bismayImg from "../assets/committee/bismay.jpeg";
 import rabiImg from "../assets/committee/rabi.jpg";
+import anupDashImg from "../assets/committee/0_Anup_Dash.jpeg";
+import praveenOjhaImg from "../assets/committee/1_Praveen_Ojha.jpeg";
+import rashmitParidaImg from "../assets/committee/2_Rashmit_Parida.jpeg";
 import rathYatraVideo from "../assets/srgf_rathajatra.mp4";
 
 export const TRUST_NAME = "SRGF Sri Jagannath Trust";
@@ -114,11 +117,11 @@ export const CAROUSEL_IMAGES = [
 ];
 
 export const LEADERSHIP = [
-  { role: "Managing Trustee", name: "TBD", photo: null },
-  { role: "", name: "TBD", photo: null },
-  { role: "", name: "Bismaya Samantaray", photo: bismayImg },
-  { role: "", name: "Rabindranath Mishra", photo: rabiImg },
-  { role: "", name: "TBD", photo: null },
+  { role: "Managing Trustee", name: "Anup Dash", photo: anupDashImg },
+  { role: "Trustee", name: "Praveen Ojha", photo: praveenOjhaImg },
+  { role: "Trustee", name: "Rashmit Parida", photo: rashmitParidaImg },
+  { role: "Trustee", name: "Bismaya Samantaray", photo: bismayImg },
+  { role: "Trustee", name: "Rabindranath Mishra", photo: rabiImg },
   { role: "", name: "TBD", photo: null },
   { role: "", name: "TBD", photo: null },
   { role: "", name: "TBD", photo: null },
