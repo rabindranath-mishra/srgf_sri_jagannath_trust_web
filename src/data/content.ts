@@ -8,11 +8,14 @@ import carouselImg5 from "../assets/gallery/5.jpg";
 import carouselImg6 from "../assets/gallery/6.jpg";
 import carouselImg7 from "../assets/gallery/7.jpg";
 import carouselImg8 from "../assets/gallery/8.jpg";
-import bismayImg from "../assets/committee/bismay.jpeg";
-import rabiImg from "../assets/committee/rabi.jpg";
 import anupDashImg from "../assets/committee/0_Anup_Dash.jpeg";
-import praveenOjhaImg from "../assets/committee/1_Praveen_Ojha.jpeg";
-import rashmitParidaImg from "../assets/committee/2_Rashmit_Parida.jpeg";
+import saritaSourashriImg from "../assets/committee/1_Sarita_Sourashri.jpeg";
+import praveenOjhaImg from "../assets/committee/2_Praveen_Ojha.jpeg";
+import rashmitParidaImg from "../assets/committee/3_Rashmit_Parida.jpeg";
+import bismayaSamantarayaImg from "../assets/committee/5_Bismaya_Samantaraya.jpeg";
+import bijayMohantyImg from "../assets/committee/6_Bijay_Mohanty.jpeg";
+import bidhanMishraImg from "../assets/committee/7_Bidhan_Mishra.jpeg";
+import rabindranathMishraImg from "../assets/committee/8_Rabindranath_Mishra.jpg";
 import rathYatraVideo from "../assets/srgf_rathajatra.mp4";
 
 export const TRUST_NAME = "SRGF Sri Jagannath Trust";
@@ -78,8 +81,8 @@ export const EVENTS = [
     ]
   },
   {
-    title: "Serve With Us",
-    description: "Devotional singing and spiritual gathering.",
+    title: "Daily Puja",
+    description: "Offer Prasad, Devotional singing and spiritual gathering.",
   },
   {
     title: "Cultural Program",
@@ -118,14 +121,14 @@ export const CAROUSEL_IMAGES = [
 
 export const LEADERSHIP = [
   { role: "Managing Trustee", name: "Anup Dash", photo: anupDashImg },
+  { role: "Trustee", name: "Sarita Sourashri", photo: saritaSourashriImg },
   { role: "Trustee", name: "Praveen Ojha", photo: praveenOjhaImg },
   { role: "Trustee", name: "Rashmit Parida", photo: rashmitParidaImg },
-  { role: "Trustee", name: "Bismaya Samantaray", photo: bismayImg },
-  { role: "Trustee", name: "Rabindranath Mishra", photo: rabiImg },
-  { role: "", name: "TBD", photo: null },
-  { role: "", name: "TBD", photo: null },
-  { role: "", name: "TBD", photo: null },
-  { role: "", name: "TBD", photo: null },
+  { role: "Trustee", name: "Pradeep Dash", photo: null },
+  { role: "Trustee", name: "Bismaya Samantaray", photo: bismayaSamantarayaImg },
+  { role: "Trustee", name: "Bijay Mohanty", photo: bijayMohantyImg },
+  { role: "Trustee", name: "Bidhan Mishra", photo: bidhanMishraImg },
+  { role: "Trustee", name: "Rabindranath Mishra", photo: rabindranathMishraImg },
 ];
 
 export const CONTACT_INFO = {
