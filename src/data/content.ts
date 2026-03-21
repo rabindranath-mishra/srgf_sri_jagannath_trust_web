@@ -13,7 +13,7 @@ import saritaSourashriImg from "../assets/committee/1_Sarita_Sourashri.jpeg";
 import praveenOjhaImg from "../assets/committee/2_Praveen_Ojha.jpeg";
 import rashmitParidaImg from "../assets/committee/3_Rashmit_Parida.jpeg";
 import bismayaSamantarayaImg from "../assets/committee/5_Bismaya_Samantaraya.jpeg";
-import bijayMohantyImg from "../assets/committee/6_Bijay_Mohanty.jpeg";
+import bijayMohantyImg from "../assets/committee/6_Bijay_Mohanty.jpg";
 import bidhanMishraImg from "../assets/committee/7_Bidhan_Mishra.jpeg";
 import rabindranathMishraImg from "../assets/committee/8_Rabindranath_Mishra.jpg";
 import rathYatraVideo from "../assets/srgf_rathajatra.mp4";
