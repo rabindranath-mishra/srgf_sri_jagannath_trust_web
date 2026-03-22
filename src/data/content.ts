@@ -124,7 +124,7 @@ export const LEADERSHIP = [
   { role: "Trustee", name: "Sarita Sourashri", photo: saritaSourashriImg },
   { role: "Trustee", name: "Praveen Ojha", photo: praveenOjhaImg },
   { role: "Trustee", name: "Rashmit Parida", photo: rashmitParidaImg },
-  { role: "Trustee", name: "Pradeep Dash", photo: null },
+  { role: "Trustee", name: "Pradeep Das", photo: null },
   { role: "Trustee", name: "Bismaya Samantaray", photo: bismayaSamantarayaImg },
   { role: "Trustee", name: "Bijay Mohanty", photo: bijayMohantyImg },
   { role: "Trustee", name: "Bidhan Mishra", photo: bidhanMishraImg },
